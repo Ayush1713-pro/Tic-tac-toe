@@ -94,3 +94,12 @@ section{
   padding: 1rem;
   margin-left: 400px;
 }
+
+@media (max-width: 768px) {
+  #reset-btn,#new-btn,#resetScore{
+    padding: 1rem;
+  }
+  .score{
+    display: none;
+  }
+}
